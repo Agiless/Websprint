@@ -1,0 +1,142 @@
+/* General Styling */
+.container-page {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Search Bar */
+  .search-bar-page input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Post Section */
+  .post-page {
+    background: rgb(66, 62, 62);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    color: white;
+  }
+  
+  .user-info-page {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar-page {
+    width: 40px;
+    height: 40px;
+    background: gray;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .username-page {
+    font-weight: bold;
+  }
+  
+  /* Image Carousel */
+  .image-carousel-page {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .post-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .left {
+    left: 5px;
+  }
+  
+  .right {
+    right: 5px;
+  }
+  
+  /* Action Buttons */
+  .actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+  }
+
+  
+  .action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+  
+  .like:hover {
+    color: red;
+  }
+  
+  .comment:hover {
+    color: blue;
+  }
+  
+  .share:hover {
+    color: green;
+  }
+  
+  /* Comments Section */
+  .comments {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    color: #555;
+  }
+  
+  
+  #inp-comments{
+    margin-top: 10px;
+    width: 70%;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .inp-btn-submit{
+    margin-left: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+  }
+  .inp-btn-submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
